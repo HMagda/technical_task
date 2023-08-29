@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img src="@/assets/images/man-mountains.jpg" alt="About Me" />
+    <img src="@/assets/images/man-mountains@2x.jpg" alt="About Me" />
     <h1>O mnie</h1>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut

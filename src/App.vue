@@ -8,16 +8,19 @@
     <div id="about-me" ref="aboutSection"><AboutSection /></div>
     <div id="gallery" ref="gallerySection"><ImageSlider /></div>
     <ContactFormModal :isOpen="isModalOpen" @closeModal="closeModal" />
+    <FooterSection />
   </div>
 </template>
 
 <script lang="ts">
+import './App.scss';
 import { defineComponent, ref } from 'vue';
-import NavigationMenu from './components/NavigationMenu.vue';
-import StartSection from './components/StartSection.vue';
-import AboutSection from './components/AboutSection.vue';
-import ImageSlider from './components/ImageSlider.vue';
-import ContactFormModal from './components/ContactFormModal.vue';
+import NavigationMenu from './components/NavigationMenu/NavigationMenu.vue';
+import StartSection from './components/StartSection/StartSection.vue';
+import AboutSection from './components/AboutSection/AboutSection.vue';
+import ImageSlider from './components/ImageSlider/ImageSlider.vue';
+import ContactFormModal from './components/ContactFormModal/ContactFormModal.vue';
+import FooterSection from './components/Footer/Footer.vue';
 
 export default defineComponent({
   components: {
@@ -26,6 +29,7 @@ export default defineComponent({
     AboutSection,
     ImageSlider,
     ContactFormModal,
+    FooterSection
   },
   setup() {
     const isModalOpen = ref(false);
