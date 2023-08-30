@@ -6,14 +6,8 @@
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### To see the project live type
 
 ```sh
 npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
 ```
