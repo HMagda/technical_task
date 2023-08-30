@@ -4,8 +4,8 @@
   position: sticky;
   top: 0;
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
   background: $color-white;
   z-index: 1;
 
@@ -36,6 +36,7 @@
       font: normal normal 300 12px/14px Montserrat;
 
       &:hover {
+        cursor: pointer;
         box-shadow: 0px 5px 10px #fc435933;
       }
     }
