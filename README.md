@@ -2,12 +2,12 @@
 
 ## Project Setup
 
+1. 
 ```sh
 npm install
 ```
 
-### To see the project live type
-
+2.
 ```sh
 npm run dev
 ```
