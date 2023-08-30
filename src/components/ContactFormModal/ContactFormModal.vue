@@ -8,7 +8,7 @@
         alt="Close"
       />
       <label class="input-label">IMIĘ<span class="red-asterisk">*</span></label>
-      <input type="text" v-model="formData.name" placeholder="- wpisz -"/>
+      <input type="text" v-model="formData.name" placeholder="- wpisz -" />
       <label class="input-label">NAZWISKO <span class="red-asterisk">*</span></label>
       <input type="text" v-model="formData.surname" placeholder="- wpisz -" />
       <label class="input-label">ADRES E-MAIL<span class="red-asterisk">*</span></label>
