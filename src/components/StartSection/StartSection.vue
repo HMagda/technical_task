@@ -9,6 +9,6 @@ import { defineComponent } from 'vue'
 import './StartSection.scss'
 
 export default defineComponent({
-  name: 'StartSection'
+  name: 'StartSection',
 })
 </script>
